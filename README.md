@@ -41,8 +41,8 @@ Any obvious errors have to be handled in the front-end part.
   python app.py
   ```
  ### Running React-native app using expo :
-  1. Inside the Project Directory, Run
-   ```sh
-   npm install
-   ```
+  1. Inside the Project Directory, Run ```npm install```
+  2. Wait for the installation process to complete.
+  3. Then run ```npm start``` to run the app.
+  4. Scan the QR Code using [Expo App](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en).
 
