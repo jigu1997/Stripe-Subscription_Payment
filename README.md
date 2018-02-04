@@ -30,6 +30,7 @@ Any obvious errors have to be handled in the front-end part.
 ## Installing and Running the App :
  ### Cloning the Project
  Download the .zip of the project using the [link](https://github.com/jigu1997/Stripe-Subscription_Payment/archive/master.zip) and extract the files from the zip in any desired folder.
+ ### To set Python development environment, Refer readme.md of https://github.com/sandyavs/GroupTask1/
  ### Setting up Python-Server :
   1. Using command prompt change the current directory to the project directory/Python_files . For instance , if the current directory is C, then
   ```sh
