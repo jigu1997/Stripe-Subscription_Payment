@@ -51,8 +51,14 @@ Any obvious errors have to be handled in the front-end part.
 <br>
 <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/expURL.JPG" height="500" >
 
-### Copy the URL(WITHOUT PORT NUMBER)to the serverURL Variable in App.js and ManageSubscription.
+### Copy the URL(WITHOUT PORT NUMBER)to the serverURL Variable in App.js and ManageSubscription.js
 
 <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/serverURL_change.JPG" height="500" >
 <br>
+
+## Screenshots from Expo app :
+<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/initialLoading.png" height="500" >
+<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/customerList.png" height="500" >
+<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/manageSubs.png" height="500" >
+<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/finalSubscription.png" height="500" >
 
