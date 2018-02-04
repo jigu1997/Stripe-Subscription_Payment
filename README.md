@@ -30,7 +30,7 @@ Any obvious errors have to be handled in the front-end part.
 ## Installing and Running the App :
  ### Cloning the Project
  Download the .zip of the project using the [link](https://github.com/jigu1997/Stripe-Subscription_Payment/archive/master.zip) and extract the files from the zip in any desired folder.
- ### To set Python development environment, Refer readme.md of https://github.com/sandyavs/GroupTask1/
+ ### To set Python development environment, Refer readme.md of https://github.com/sandyavs/GroupTask1/blob/master/README.md
  ### Setting up Python-Server :
   1. Using command prompt change the current directory to the project directory/Python_files . For instance , if the current directory is C, then
   ```sh
@@ -42,7 +42,9 @@ Any obvious errors have to be handled in the front-end part.
   python app.py
   ```
   ## NOTE : Change the last line of app.py to app.run(debug=True,host='0.0.0.0') to make API calls from android device.
+  
   <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/app_py.JPG" height="500" >
+  
  ### Running React-native app using expo :
   1. Inside the Project Directory, Run ```npm install```
   2. Wait for the installation process to complete.
