@@ -2,12 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View, FlatList, AppRegistry, TouchableHighlight, ListView, ActivityIndicator} from 'react-native';
 import { Button, List, ListItem} from 'native-base';
 import { StackNavigator } from 'react-navigation';
-import axios from 'axios';
 
-const serverURL = 'http://192.168.1.5:5000';
-const http = axios.create({
-  baseURL : serverURL,
-});
+
+const serverURL = 'http://192.168.42.217:5000';
+
 
 import Component6 from './ManageSubscription.js';
 
@@ -48,8 +46,9 @@ class ListComponent extends React.Component {
        <TouchableHighlight  onPress={() => navigate('Chat',{ username: user.id, email:user.email})}>
           <View style={styles.view}>
            <Text style={styles.text}> {user.email}</Text>
+        
           </View>
-      </TouchableHighlight>
+      </TouchableHighlight>  
     );
     }
 
@@ -74,6 +73,7 @@ class ListComponent extends React.Component {
         dataSource={this.state.userDataSource}
         renderRow={this.renderRow.bind(this)}
       />
+
       </View>
     
       );
