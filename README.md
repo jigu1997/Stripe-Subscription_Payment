@@ -48,5 +48,5 @@ Any obvious errors have to be handled in the front-end part.
   
  NOTE : Change the serverURL in App.js and ManageSubscription.js to the Local URL shown in gitBash by expo WITHOUT CHANGING THE DEFAULT PORT(5000).
  
- ![alt Expo URL](https://github.com/jigu1997/Stripe-Subscription_Payment/tree/master/screenshots/expoURL.jpg)
+ ![alt Expo URL](https://github.com/jigu1997/Stripe-Subscription_Payment/tree/master/screenshots/expURL.jpg)
 
