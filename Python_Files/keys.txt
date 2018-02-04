@@ -1,0 +1,4 @@
+set SEC_API_KEY=sk_test_Wzyf8bXUECPHtSdZUOZQbBAo
+
+
+set PUB_API_KEY=pk_test_OyhhiBq3BPXTFj8VXFdzU2M7
