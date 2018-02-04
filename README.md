@@ -57,8 +57,16 @@ Any obvious errors have to be handled in the front-end part.
 <br>
 
 ## Screenshots from Expo app :
+ ### 1. Fetching Customer List
 <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/initialLoading.png" height="500" >
-<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/customerList.png" height="500" >
+
+ ### 2. Customer List Display
+<img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/customerList.png" height="500" >\
+
+ ### 3. Selecting Plans and Billing methods
 <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/manageSubs.png" height="500" >
+
+ ### 4. Subscription Confirmation
 <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/finalSubscription.png" height="500" >
+
 
