@@ -35,4 +35,14 @@ Any obvious errors have to be handled in the front-end part.
   ```sh
   cd C:/Stripe-Subscription_Payment-master/Python_files
   ```
+  2. Copy the keys from keys.txt file in the Command prompt.
+  3. Run the server using the following command :
+  ```sh
+  python app.py
+  ```
+ ### Running React-native app using expo :
+  1. Inside the Project Directory, Run
+   ```sh
+   npm install
+   ```
 
