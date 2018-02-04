@@ -45,5 +45,6 @@ Any obvious errors have to be handled in the front-end part.
   2. Wait for the installation process to complete.
   3. Then run ```npm start``` to run the app.
   4. Scan the QR Code using [Expo App](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en).
+  
  NOTE : Change the serverURL in App.js and ManageSubscription.js to the Local URL shown in gitBash by expo WITHOUT CHANGING THE DEFAULT PORT(5000).
 
