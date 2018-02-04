@@ -41,6 +41,8 @@ Any obvious errors have to be handled in the front-end part.
   ```sh
   python app.py
   ```
+  ## NOTE : Change the last line of app.py to app.run(debug=True,host='0.0.0.0') to make API calls from android device.
+  <img src="https://github.com/jigu1997/Stripe-Subscription_Payment/blob/master/screenshots/app_py.JPG" height="500" >
  ### Running React-native app using expo :
   1. Inside the Project Directory, Run ```npm install```
   2. Wait for the installation process to complete.
