@@ -3,11 +3,11 @@ import { StyleSheet, Text, View, FlatList, AppRegistry, TouchableHighlight, List
 import { List, ListItem} from 'native-base';
 import { StackNavigator } from 'react-navigation';
 import { CheckBox } from 'react-native-elements';
-import axios from 'axios';
+
 import RadioButton from 'radio-button-react-native';
 import Formdata from 'FormData';
 
-const serverURL = 'http://192.168.1.5:5000';
+const serverURL = 'http://192.168.42.217:5000';
 
 var formData = new FormData();
 
@@ -22,9 +22,6 @@ let postData = {
     body: formData
 }
 
-const http = axios.create({
-  baseURL : serverURL,
-});
 
 export default class ManageSubscription extends React.Component {
     
@@ -38,7 +35,7 @@ export default class ManageSubscription extends React.Component {
           custid : "none",
           value :"send_invoice",
           initialData:null,
-          subscribed : "no"
+        
     };
     }
     
@@ -56,15 +53,7 @@ export default class ManageSubscription extends React.Component {
      }
 
      subscribeToPlan(customerid){
-      if(this.state.subscribed=="no"){
-      return (
-        <ActivityIndicator
-          animating={true}
-          style={styles.indicator}
-          size="large"
-        />
-      );
-      }
+     
       this.setState({
         custid : customerid
       });
@@ -72,7 +61,7 @@ export default class ManageSubscription extends React.Component {
      formData.append('plan_id',this.state.planString);
      formData.append('bill',this.state.value);
 
-     //console.log(customerid + ","+this.state.planString+","+this.state.value);
+
 
     	fetch(serverURL+'/multiple_subscription', postData)
 		  .then((response) =>{ 
