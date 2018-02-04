@@ -6,7 +6,6 @@ This purpose of this app is to create subscriptions for the customers using the 
 The backend developer has to perform some basic operations in the [Stripe dashboard](https://dashboard.stripe.com/test/dashboard) which are as follows:
  1. Create an account in the Stripe.
  2. Create new Customers , Products and Subscription Plans.
- 3. Add Credit-Card information in case the billing method is selected as "charge automatically".
  
 #### Stripe API with Python-Flask :
 For this app, the backend code has been written using Python-flask framework . The purpose of the backend is to serve as a bridge between Front-end and the Stripe API . The following are the operations performed by the back-end framework:
